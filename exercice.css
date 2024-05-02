@@ -1,0 +1,11 @@
+body {
+    background-color: gold;
+}
+
+p {    /*Selection de tous les paragraphes */
+    color: blueviolet; /*Tous les paragraphes ont maintenant le couleur Blueviolet*/
+}
+
+h2 { /*Selectionne tous les titre H2 */
+    background-color: gray; /*Change la couleur de fond a tous les titres H2*/
+}

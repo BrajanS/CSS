@@ -1,0 +1,32 @@
+#divP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+
+#div3 {
+    border: 0px solid blue;
+    width: 30px;
+    height: 60px;
+    background-color: blue;
+    
+}
+#div4 {
+    border: 0px solid white;
+    width: 30px;
+    height: 60px;
+    background-color: white;
+
+}
+#div5 {
+    border: 0px solid red;
+    width: 30px;
+    height: 60px;
+    background-color: red;
+
+}
