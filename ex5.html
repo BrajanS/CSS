@@ -1,51 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.html">
     <style>
+       form {
+        font-family:"lato", sans-serif;
+        width: 400px;
+        margin:auto;
+        margin-top: 100px;
+        }
+        
+        input {
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 200px;
+            margin: 5px;
+        }
 
+        label {
+            width: 100px;
+            display: inline-block;
+        }
+
+        input[type="submit"] {
+            background-color: gold;
+            width: 400px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgba(255, 217, 0, 0.548);
+        }
+
+        input:focus {
+            border: 4px solid blue;
+            border-radius: 5px;
+
+        }
     </style>
 </head>
+
 <body>
     <a href="index.html">Index</a>
     <form action="" method="post">
 
         <label for="nom">Nom</label>
-        
+
         <input type="text" name="nom" id="nom" required>
-        
+
         <label for="prenom">Prénom</label>
-        
+
         <input type="text" name="prenom" id="prenom" required>
-        
+
         <fieldset>
-        
-        <legend>Adresse</legend>
-        
-        <label for="rue">rue</label>
-        
-        <input type="text" name="rue" id="rue">
-        
-        <label for="num">Numéro</label>
-        
-        <input type="number" name="num" id="num">
-        
-        <label for="cp">Code Postal</label>
-        
-        <input type="number" name="cp" id="cp">
-        
-        <label for="loc">Localité</label>
-        
-        <input type="text" name="loc" id="loc">
-        
+
+            <legend>Adresse</legend>
+
+            <label for="rue">rue</label>
+
+            <input type="text" name="rue" id="rue">
+
+            <label for="num">Numéro</label>
+
+            <input type="number" name="num" id="num">
+
+            <label for="cp">Code Postal</label>
+
+            <input type="number" name="cp" id="cp">
+
+            <label for="loc">Localité</label>
+
+            <input type="text" name="loc" id="loc">
+
+
         </fieldset>
-        
+
         <input type="submit" value="Envoyer">
-        
-        </form>
-        
-        
+
+    </form>
+
+
 </body>
+
 </html>
